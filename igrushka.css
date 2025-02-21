@@ -1,0 +1,54 @@
+
+body {
+    background-image: url('fo.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    min-height: 50vh; 
+    font-family: 'Arial', sans-serif; 
+    color: rgb(206, 234, 21); 
+}
+
+h1 {
+    font-size: 60px; 
+    color: #e7e728; 
+    text-shadow: 2px 2px 8px rgba(248, 72, 72, 0.7); 
+    text-align: center; 
+    margin: 20px 0;
+    letter-spacing: 2px; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+h1:hover {
+    transform: scale(1.7); 
+    color: #f0e68c; 
+}
+
+.a {
+    padding-left: 350px;
+    text-align: left;
+    font-size: 20px;
+    color: white; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6934db; 
+    color: rgb(198, 26, 26);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0c3957; 
+    transform: scale(1.2); 
+}
